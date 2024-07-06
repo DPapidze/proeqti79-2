@@ -1,0 +1,84 @@
+.n1{
+    outline: none;
+    width: 315px;
+    height: 45px;
+    background-color: #FFFFFF;
+    border-radius: 10px;
+    border: 1px solid #F4B4B4;
+    color: #9E9E9E;
+    caret-color: #5e5e5e;
+    padding-left: 10px;
+}
+.n1:focus{
+    background-color: #FFFFFF;
+}
+
+.n1::placeholder{
+    color: #9E9E9E;
+    font-weight: 500px;
+    font-size: 16px;
+}
+.n2::placeholder{
+    color: #9E9E9E;
+}
+.n2{
+    outline: none;
+    width: 315px;
+    height: 35px;
+    background-color: #FFFFFF;
+    border-radius: 15px;
+    border: 1px solid #F4B4B4;
+    color: #9E9E9E;
+    caret-color: #5e5e5e;
+    padding-left: 10px;
+    padding-top: 10px;
+}
+.n2:focus{
+    background-color: #FFFFFF;
+}
+
+.n2::placeholder{
+    color: #9E9E9E;
+    font-weight: 800px;
+    font-size: 16px;
+}
+
+body{
+    padding-left: 650px;
+}
+@font-face {
+    font-family: fonts;
+    src: url(/fonts/Inter-VariableFont_slnt\,wght.ttf);
+}
+button{
+    width: 315px;
+    height: 45px;
+    background-color: #6756CB;
+    border-radius: 10px;
+    position: absolute;
+    left: 665px;
+}
+button{
+    font-family: fonts;
+    font-size: 15px;
+    font-weight: 700px;
+    color: #FFFFFF
+}
+.f{
+    position: relative;
+    top: 5px;
+    left: -15px;
+}
+.f1{
+    position: absolute;
+    top: 300px;
+    left: 965px;
+    Opacity: 70%;
+}
+.f2{
+    position: absolute;
+    top: 403px;
+    left: 965px;
+    Opacity: 70%;
+}
+
